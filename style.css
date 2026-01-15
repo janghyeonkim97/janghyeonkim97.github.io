@@ -283,14 +283,13 @@ h2 {
   width: 18%;
   float: left;
   margin-right: 2%;
-  height: 7.2em; /* fixed thumbnail height to keep media uniform */
+  height: 7.3em; /* fixed thumbnail height to keep media uniform */
   overflow: auto;
 }
 
 .thumbnail:hover {
   border-bottom: none;
 }
-
 
 .thumbnail img,
 .thumbnail video {
