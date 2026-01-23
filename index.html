@@ -1,0 +1,386 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Google analytics tag (gtag.js) -->
+  <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-STGLQW4BJX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-STGLQW4BJX');
+    </script>
+    -->
+
+  <!-- Title -->
+  <title>Janghyeon Kim - Robotic Engineer</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1000">
+
+  <!-- Isotope JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+  </style>
+</head>
+
+<body id="body">
+  <div id="main">
+    <div id="intro">
+      <div id="intro-text">
+        <h1>Janghyeon Kim</h1>
+        <p>
+          Welcome! I'm a robotics engineer at the Human Assistive Neurorobotics (HAN) Lab at Yonsei University.
+          I received an M.S. degree in Computer Science from Yonsei University, supervised by Prof. Han Ul Yoon.
+          My research interests include robot learning, human-robot interaction, and AI for robotics.
+          In particular, I focus on developing intelligent robotic systems that can learn from human demonstrations and adapt to dynamic environments.
+                    
+        <div id="more-bio" style="display: none">
+          <br>
+          <p>Janghyeon Kim is a robotic engineer specializing in autonomous systems and machine learning for robotics.
+            He has worked on various projects involving robot perception, manipulation, and control. His work focuses on
+            building intelligent systems that can operate effectively in complex environments.</p>
+        </div>
+        <br>
+        <!-- <a href="javascript:toggle_bio()">Formal Bio</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
+        <a href="https://scholar.google.com/citations?user=uwIw8ioAAAAJ&hl=ko">Google
+          Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/janghyeon-kim-9b084a308/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <!--a href="https://www.linkedin.com/in/janghyeon-kim-9b084a308/">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;-->
+
+        <br><br>
+        E-mail: janghyeonk [at] yonsei [dot] ac [dot] kr
+
+        <br><br>
+        </p>
+      </div>
+      <div id="intro-image">
+        <img src="sources/profile.jpg">
+      </div>
+    </div>
+
+    <div id="filters" class="button-group">
+      <!-- <button class="button" data-filter="*">Show All</button> -->
+       <button class="button is-checked" data-filter=".research">Research</button>
+      <button class="button" data-filter=".project">Projects</button>      
+      <button class="button" data-filter=".misc">Misc</button>
+    </div>
+
+    <div class="grid">
+      <!-- #################################################### -->
+      <!-- Research -->
+      <!-- #################################################### -->
+      <div class="list-item research description" data-category="Research">
+        For a more up-to-date list, visit my <a
+          href="https://scholar.google.com/citations?user=uwIw8ioAAAAJ&hl=ko">Google Scholar</a>
+      </div>
+
+      <div id="main-research">
+        
+        <!--2025 JKIIS -->
+        <div class="list-item research" data-category="research">
+          <a class="thumbnail">
+            <img src="sources/Thumbnail_2025_JKIIS.png" width="180px" alt="JKIIS 2025 thumbnail">
+          </a>
+          <div class="research-description">
+            <h3>
+                <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003256664">
+                  A Method of Extracting Muscle Synergies via Alternating Optimization for Human Motion Analysis
+                </a>
+            </h3>
+            <p>
+                <u>Janghyeon Kim</u> and Han Ul Yoon <br>
+                <span style="display:inline-block; font-style: italic; transform: skewX(-12deg);">
+                  Journal of Korean Institute of Intelligent Systems (JKIIS) 2025
+                </span> <br>
+                <a href="pdf/2025_JKIIS.pdf">PDF[KOR]</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+          </div>
+        </div>
+
+        <!--2023 IROS -->
+        <div class="list-item research" data-category="research">
+          <a class="thumbnail">
+            <video playsinline="" muted="" autoplay="" loop="" width="180px">
+              <source src="sources/Thumbnail_2023_IROS.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div class="research-description">
+            <h3>
+              <a href="https://ieeexplore.ieee.org/abstract/document/10341831">
+                An Approach to Design a Biomechanically-Inspired Reward Function to Solve a Patience Cube Under Reinforcement Learning Framework
+              </a>
+            </h3>
+            <p>
+              <u>Janghyeon Kim</u>, Ho-Jin Jung, Dae Han Sim, Ji-Hyeon Yoo, Song Woo Kim, Han Ul Yoon <br>
+              <span style="display:inline-block; font-style: italic; transform: skewX(-12deg);">
+                International Conference on Intelligent Robots and Systems (IROS) 2023
+              </span> <br>
+              <a href="https://www.youtube.com/watch?v=dm0vjF8z2C0">Video[IROS]</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://www.youtube.com/watch?v=NqrPYQgX-4o">Video[Thesis]</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="pdf/2023_IROS.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <!--2022 Applied Science -->
+        <div class="list-item research" data-category="research">
+          <a class="thumbnail">
+            <video playsinline="" muted="" autoplay="" loop="" width="180px">
+              <source src="sources/Thumbnail_2022_AS.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div class="research-description">
+            <h3>
+              <a href="https://www.mdpi.com/2076-3417/12/18/9054">
+                Solving a simple geduldspiele cube with a robotic gripper via sim-to-real transfer
+              </a>
+            </h3>
+            <p>
+              Ji-Hyeon Yoo, Ho-Jin Jung, <u>Janghyeon Kim</u>, Dae-Han Sim, Han-Ul Yoon <br>
+              <span style="display:inline-block; font-style: italic; transform: skewX(-12deg);">
+                Applied Sciences 2022
+              </span> <br>
+              <a href="https://www.youtube.com/watch?v=9PzvLX8g3fc">Video[IROS]</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="pdf/2022_Applied Science.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <!--2022 UR -->
+        <div class="list-item research" data-category="research">
+          <a class="thumbnail">
+            <img src="sources/Thumbnail_2022_UR.png" width="180px" alt="UR 2022 thumbnail">
+          </a>
+          <div class="research-description">
+            <h3>
+              <a href="https://arxiv.org/abs/2205.05351">
+                Human-Robot Interface to Operate Robotic Systems via Muscle Synergy-Based Kinodynamic Information Transfer*
+              </a>
+            </h3>
+            <p>
+              <u>Janghyeon Kim</u>, Dae Han Sim, Ho-Jin Jung, Ji-Hyeon Yoo, Changjae Lee, Han Ul Yoon <br>
+              <span style="display:inline-block; font-style: italic; transform: skewX(-12deg);">
+                International Conference on Ubiquitous Robots (UR) 2022
+              </span> <br>
+              <a href="https://www.youtube.com/watch?v=Dm9g81H9UBs&t=1s">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="pdf/2022_UR.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <!--2021 ISIS -->
+        <div class="list-item research" data-category="research">
+          <a class="thumbnail">
+            <img src="sources/Thumbnail_2021_ISIS.png" width="180px" alt="ISIS 2021 thumbnail">
+          </a>
+          <div class="research-description">
+            <h3>
+              <a href="https://www.researchgate.net/publication/357116939_Extracting_Time-Varying_Muscle_Synergy_with_Imposing_Interchannel_Correlation_Constraints">
+                Extracting Time-Varying Muscle Synergy with Imposing Interchannel Correlation Constraints
+              </a>
+            </h3>
+            <p>
+              <u>Janghyeon Kim</u> and Han Ul Yoon <br>
+              <span style="display:inline-block; font-style: italic; transform: skewX(-12deg);">
+                International Symposium on Advanced Intelligent Systems (ISIS) 2021
+              </span><br>
+              <a href="pdf/2021_ISIS.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- All Research (Click to Show) -->
+      <div id="more-research" style="display: none">
+
+        <!--2022 JKIIS -->
+        <div class="list-item research" data-category="research">
+          <a class="thumbnail">
+            <img src="sources/Thumbnail_2022_JKIIS.png" width="180px" alt="JKIIS 2022 thumbnail">
+          </a>
+          <div class="research-description">
+            <h3>
+              <a href="">
+                Extracting Time-Varying Muscle Synergy Based on Target Cascading to Impose a Temporal Relationship in Muscle Activation as Constraints
+              </a>
+            </h3>
+            <p>
+              <u>Janghyeon Kim</u>, and Han Ul Yoon<br>
+              <span style="display:inline-block; font-style: italic; transform: skewX(-12deg);">
+                Journal of Korean Institute of Intelligent Systems (JKIIS) 2022
+              </span><br>
+              <a href="pdf/2022_JKIIS.pdf">PDF[KOR]</a>
+            </p>
+          </div>
+        </div>
+
+        <!--2021 JKIIS -->
+        <div class="list-item research" data-category="research">
+          <a class="thumbnail">
+            <img src="sources/Thumbnail_2021_JKIIS.png" width="180px" alt="JKIIS 2021 thumbnail">
+          </a>
+          <div class="research-description">
+            <h3>
+              <a href="">
+                Adopting a Tensor-Type Muscle Synergy to a Upper Arm Gym-Workout Analysis
+              </a>
+            </h3>
+            <p>
+              <u>Janghyeon Kim</u>, Ji-Hyeon Yoo, Dae Han Sim, and Han Ul Yoon<br>
+              <span style="display:inline-block; font-style: italic; transform: skewX(-12deg);">
+                Journal of Korean Institute of Intelligent Systems (JKIIS) 2021
+              </span><br>
+              <a href="pdf/2021_JKIIS.pdf">PDF[KOR]</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Toggle research button. -->
+      <div class="list-item research toggle-button" data-category="research">
+        <a id="toggle_research" href="javascript:toggle_research()">Show more research</a>
+      </div>
+
+      <!-- #################################################### -->
+      <!-- Projects -->
+      <!-- #################################################### -->
+        
+      <div class="list-item project" data-category="project">
+        <p style="color: #666; font-style: italic;"> Upload Soon ...</p>
+      </div>
+
+      <!-- 프로젝트 추가 예시 (주석 해제 후 사용)
+      <div class="list-item project" data-category="project">
+        <a href="#" class="thumbnail">
+          <img src="images/your-project-image.jpg" alt="" />
+        </a>
+        <div class="project-description">
+          <h3><a href="#">프로젝트 제목</a></h3>
+          <p>
+            프로젝트 설명을 여기에 작성하세요.<br>
+            <a href="#">Demo</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+            <a href="#">Code</a>
+          </p>
+        </div>
+      </div>
+      -->
+
+      <!-- #################################################### -->
+      <!-- Misc -->
+      <!-- #################################################### -->
+      <div class="list-item misc" data-category="misc">
+        <p class="date">2024</p> Received M.S. Computer Science </a>
+      </div>
+
+      <div class="list-item misc" data-category="misc">
+        <p class="date">2022</p> Received B.E. Computer Engineering (1st/64) </a>
+      </div>
+
+
+    </div>
+    <div id="footer">This template is based on <a href="https://github.com/andyzeng/andyzeng.github.io">Andy Zeng</a>'s
+    </div>
+
+  </div>
+
+  <script>
+
+    // Isotope grid.
+    var $grid = $('.grid').isotope({
+      itemSelector: '.list-item',
+      layoutMode: 'fitRows',
+      transitionDuration: '0.0s',
+      stagger: 0,
+      initLayout: false,
+      getSortData: {
+        name: '.name',
+        symbol: '.symbol',
+        number: '.number parseInt',
+        category: '[data-category]',
+        weight: function (itemElem) {
+          var weight = $(itemElem).find('.weight').text();
+          return parseFloat(weight.replace(/[\(\)]/g, ''));
+        }
+      }
+    });
+
+    // Bind filter button click.
+    $('#filters').on('click', 'button', function () {
+      var filterValue = $(this).attr('data-filter');
+      localStorage.setItem('filterValue', filterValue);
+      $grid.isotope({ filter: filterValue });
+    });
+
+    // Change is-checked class on buttons.
+    $('.button-group').each(function (i, buttonGroup) {
+      var $buttonGroup = $(buttonGroup);
+      $buttonGroup.on('click', 'button', function () {
+        $buttonGroup.find('.is-checked').removeClass('is-checked');
+        $(this).addClass('is-checked');
+      });
+    });
+
+    function update_isotope() {
+      // Retrieve cached button click.
+      var defaultFilterValue = localStorage.getItem('filterValue');
+      if (defaultFilterValue == null) {  // || defaultFilterValue === ".highlight"
+        defaultFilterValue = ".highlight"
+      }
+      $grid.isotope({ filter: defaultFilterValue });
+      var buttons = document.getElementsByClassName("button");
+      for (var currButton of buttons) {
+        if (currButton.getAttribute('data-filter') == defaultFilterValue) {
+          currButton.classList.add('is-checked');
+        } else {
+          currButton.classList.remove('is-checked');
+        }
+      }
+    }
+
+    function toggle_bio() {
+      var x = document.getElementById("more-bio");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+    function toggle_research() {
+      var x = document.getElementById("main-research");
+      var y = document.getElementById("more-research");
+      var b = document.getElementById("toggle_research")
+      if (y.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "block";
+        b.innerHTML = "Show less research"
+        update_isotope();
+      } else {
+        x.style.display = "block";
+        y.style.display = "none";
+        b.innerHTML = "Show more research"
+        update_isotope();
+      }
+    }
+
+    update_isotope();
+
+  </script>
+</body>
+
+</html>
